@@ -1,0 +1,14 @@
+nickson@nickson-VirtualBox:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs$ cd runs/
+nickson@nickson-VirtualBox:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs$ ls -ltr
+total 8
+drwxr-xr-x 6 nickson nickson 4096 Sep 15 00:04 14-09_18-36/
+drwxr-xr-x 6 nickson nickson 4096 Sep 15 00:08 14-09_18-04
+
+nickson@nickson-VirtualBox:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs$ cd 14-09_18-36/results/floorplan/
+nickson@nickson-VirtualBox:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/14-09_18-36/results/floorplan$ ls
+picorv32a.floorplan.def
+
+nickson@nickson-VirtualBox:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/14-09_18-36/results/floorplan$ magic -T /home/nickson/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+
+[1] 18094
+nickson@nickson-VirtualBox:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/14-09_18-36/results/floorplan$  
